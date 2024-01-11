@@ -1,0 +1,6 @@
+  <!ELEMENT ListaPeliculas (Pelicula*)>
+  <!ELEMENT Pelicula (Titulo, Director, AnioLanzamiento, Genero)>
+  <!ELEMENT Titulo (#PCDATA)>
+  <!ELEMENT Director (#PCDATA)>
+  <!ELEMENT AnioLanzamiento (#PCDATA)>
+  <!ELEMENT Genero (#PCDATA)>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EjemplorealBDSMS SYSTEM "EjemplorealBDSMS.dtd">
+
+<BDSMS>
+  <contacto>
+    <nombre>John Doe</nombre>
+    <telefono>1234567890</telefono>
+    <fechaNacimiento>1980-05-15</fechaNacimiento>
+    <email>john.doe@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>Jane Smith</nombre>
+    <telefono>9876543210</telefono>
+    <fechaNacimiento>1992-08-20</fechaNacimiento>
+    <email>jane.smith@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>David Johnson</nombre>
+    <telefono>5551234567</telefono>
+    <fechaNacimiento>1975-12-10</fechaNacimiento>
+    <email>david.johnson@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>Mary Williams</nombre>
+    <telefono>9998887777</telefono>
+    <fechaNacimiento>1988-03-25</fechaNacimiento>
+    <email>mary.williams@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>Robert Brown</nombre>
+    <telefono>4445556666</telefono>
+    <fechaNacimiento>1995-11-05</fechaNacimiento>
+    <email>robert.brown@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>Alice Johnson</nombre>
+    <telefono>7778889999</telefono>
+    <fechaNacimiento>1982-09-15</fechaNacimiento>
+    <email>alice.johnson@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>Michael Davis</nombre>
+    <telefono>6669991111</telefono>
+    <fechaNacimiento>1978-07-08</fechaNacimiento>
+    <email>michael.davis@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>Linda Miller</nombre>
+    <telefono>3332221111</telefono>
+    <fechaNacimiento>1990-04-12</fechaNacimiento>
+    <email>linda.miller@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>William Taylor</nombre>
+    <telefono>1112223333</telefono>
+    <fechaNacimiento>1987-01-30</fechaNacimiento>
+    <email>william.taylor@example.com</email>
+  </contacto>
+  <contacto>
+    <nombre>Susan White</nombre>
+    <telefono>8887776666</telefono>
+    <fechaNacimiento>1984-06-18</fechaNacimiento>
+    <email>susan.white@example.com</email>
+  </contacto>
+</BDSMS>

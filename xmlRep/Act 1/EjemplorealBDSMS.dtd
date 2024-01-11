@@ -1,0 +1,7 @@
+
+  <!ELEMENT BDSMS (contacto*)>
+  <!ELEMENT contacto (nombre, telefono, fechaNacimiento, email)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+  <!ELEMENT fechaNacimiento (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>

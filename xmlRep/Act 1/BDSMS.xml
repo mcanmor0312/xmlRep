@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDSMS SYSTEM "BDSMS.dtd">
+
+<BDSMS>
+  <sms>
+    <telefono>1234567890</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>09:00 AM</hora>
+    <mensaje>Hello, how are you?</mensaje>
+  </sms>
+  <sms>
+    <telefono>9876543210</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>10:30 AM</hora>
+    <mensaje>Meeting at 11 AM.</mensaje>
+  </sms>
+  <sms>
+    <telefono>5551234567</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>01:45 PM</hora>
+    <mensaje>Don't forget to buy groceries!</mensaje>
+  </sms>
+  <sms>
+    <telefono>7778889999</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>03:15 PM</hora>
+    <mensaje>Call me back when you can.</mensaje>
+  </sms>
+  <sms>
+    <telefono>1112233445</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>05:00 PM</hora>
+    <mensaje>Happy birthday!</mensaje>
+  </sms>
+  <sms>
+    <telefono>9990001111</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>07:30 PM</hora>
+    <mensaje>What's for dinner?</mensaje>
+  </sms>
+  <sms>
+    <telefono>4445556666</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>09:45 PM</hora>
+    <mensaje>Movie night tonight!</mensaje>
+  </sms>
+  <sms>
+    <telefono>8887776666</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>11:00 PM</hora>
+    <mensaje>Can't wait to see you!</mensaje>
+  </sms>
+  <sms>
+    <telefono>2223334444</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>02:00 AM</hora>
+    <mensaje>Good night!</mensaje>
+  </sms>
+  <sms>
+    <telefono>6667778888</telefono>
+    <fecha>2024-01-11</fecha>
+    <hora>04:30 AM</hora>
+    <mensaje>Need your help tomorrow.</mensaje>
+  </sms>
+</BDSMS>
