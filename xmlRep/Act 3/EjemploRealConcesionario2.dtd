@@ -1,9 +1,0 @@
-  <!ELEMENT Puerto (Barco*)>
-  <!ELEMENT Barco (Codigo, Marca, Modelo, Matricula, Potencia, CapacidadPasajeros, NumeroCabinas)>
-  <!ELEMENT Codigo (#PCDATA)>
-  <!ELEMENT Marca (#PCDATA)>
-  <!ELEMENT Modelo (#PCDATA)>
-  <!ELEMENT Matricula (#PCDATA)>
-  <!ELEMENT Potencia (#PCDATA)>
-  <!ELEMENT CapacidadPasajeros (#PCDATA)>
-  <!ELEMENT NumeroCabinas (#PCDATA)>
