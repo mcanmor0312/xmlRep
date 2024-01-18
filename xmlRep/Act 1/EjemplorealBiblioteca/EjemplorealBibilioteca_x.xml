@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ListaPeliculas xmlns:xsd="http://www.w3.org/2001/XMLSxhema-instance">
+xsi:noNamespaceSchemaLocation="EjemplorealBiblioteca.xsd"
+  <Pelicula>
+    <Titulo>Sueño de Fuga</Titulo>
+    <Director>Frank Darabont</Director>
+    <AnioLanzamiento>1994</AnioLanzamiento>
+    <Genero>Drama</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>El Padrino</Titulo>
+    <Director>Francis Ford Coppola</Director>
+    <AnioLanzamiento>1972</AnioLanzamiento>
+    <Genero>Crimen</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>Tiempos Violentos</Titulo>
+    <Director>Quentin Tarantino</Director>
+    <AnioLanzamiento>1994</AnioLanzamiento>
+    <Genero>Crimen</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>El Caballero de la Noche</Titulo>
+    <Director>Christopher Nolan</Director>
+    <AnioLanzamiento>2008</AnioLanzamiento>
+    <Genero>Acción</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>Forrest Gump</Titulo>
+    <Director>Robert Zemeckis</Director>
+    <AnioLanzamiento>1994</AnioLanzamiento>
+    <Genero>Drama</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>La Lista de Schindler</Titulo>
+    <Director>Steven Spielberg</Director>
+    <AnioLanzamiento>1993</AnioLanzamiento>
+    <Genero>Biografía</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>Avatar</Titulo>
+    <Director>James Cameron</Director>
+    <AnioLanzamiento>2009</AnioLanzamiento>
+    <Genero>Acción</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>Interstellar</Titulo>
+    <Director>Christopher Nolan</Director>
+    <AnioLanzamiento>2014</AnioLanzamiento>
+    <Genero>Ciencia Ficción</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>La La Land</Titulo>
+    <Director>Damien Chazelle</Director>
+    <AnioLanzamiento>2016</AnioLanzamiento>
+    <Genero>Musical</Genero>
+  </Pelicula>
+  <Pelicula>
+    <Titulo>Matrix</Titulo>
+    <Director>Lana Wachowski, Lilly Wachowski</Director>
+    <AnioLanzamiento>1999</AnioLanzamiento>
+    <Genero>Ciencia Ficción</Genero>
+  </Pelicula>
+</ListaPeliculas>

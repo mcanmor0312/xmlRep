@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concesionario SYSTEM "concesionario.dtd">
 
-<Concesionario>
+
+<Concesionario xmlns:xsd="http://www.w3.org/2001/XMLSxhema-instance">
+xsi:noNamespaceSchemaLocation="concesionario.xsd"
   <Coche>
     <Codigo>001</Codigo>
     <Marca>Ford</Marca>
