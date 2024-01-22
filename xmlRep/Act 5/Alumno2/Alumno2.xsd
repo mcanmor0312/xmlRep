@@ -1,0 +1,35 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="entrevista">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="candidato" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="puesto" type="xs:string"/>
+                            <xs:element name="resultado">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Apto"/>
+                                        <xs:enumeration value="NoApto"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="observaciones" type="xs:string" minOccurs="0"/>
+                            <xs:element name="contacto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="telefono" type="xs:string"/>
+                                        <xs:element name="correo" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

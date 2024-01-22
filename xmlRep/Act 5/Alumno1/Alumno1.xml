@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes_v1 SYSTEM "Alumno1.dtd">
+<archivos>
+    <Alumno>
+        <NIF>123456789A</NIF>
+        <Resultado valor="Apto"/>
+        <Observaciones>Excelente desempeño en clase.</Observaciones>
+        <IP_MAC>
+            <IP>192.168.1.1</IP>
+        </IP_MAC>
+    </Alumno>
+    
+    <Alumno>
+        <NIF>987654321B</NIF>
+        <Resultado valor="NoApto"/>
+        <Observaciones>Debe mejorar en la participación.</Observaciones>
+        <IP_MAC>
+            <MAC>00:1A:2B:3C:4D:5E</MAC>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>111223344X</NIF>
+        <Resultado valor="Apto"/>
+        <Observaciones>Buen rendimiento académico.</Observaciones>
+        <IP_MAC>
+            <IP>192.168.1.2</IP>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>555666777Y</NIF>
+        <Resultado valor="Apto"/>
+        <Observaciones>Participación destacada en actividades extracurriculares.</Observaciones>
+        <IP_MAC>
+            <MAC>11:22:33:44:55:66</MAC>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>999888777Z</NIF>
+        <Resultado valor="NoApto"/>
+        <Observaciones>Atención necesaria en asignaturas específicas.</Observaciones>
+        <IP_MAC>
+            <IP>192.168.1.3</IP>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>333444555C</NIF>
+        <Resultado valor="Apto"/>
+        <Observaciones>Destaca en matemáticas y ciencias.</Observaciones>
+        <IP_MAC>
+            <IP>192.168.1.4</IP>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>666777888D</NIF>
+        <Resultado valor="NoApto"/>
+        <Observaciones>Necesita mejorar la asistencia a clases.</Observaciones>
+        <IP_MAC>
+            <MAC>22:33:44:55:66:77</MAC>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>444555666E</NIF>
+        <Resultado valor="Apto"/>
+        <Observaciones>Participa activamente en actividades deportivas.</Observaciones>
+        <IP_MAC>
+            <IP>192.168.1.5</IP>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>777888999F</NIF>
+        <Resultado valor="Apto"/>
+        <Observaciones>Interesado en la informática y la programación.</Observaciones>
+        <IP_MAC>
+            <MAC>33:44:55:66:77:88</MAC>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>555444333G</NIF>
+        <Resultado valor="NoApto"/>
+        <Observaciones>Necesita más atención en la resolución de problemas.</Observaciones>
+        <IP_MAC>
+            <IP>192.168.1.6</IP>
+        </IP_MAC>
+    </Alumno>
+
+    <Alumno>
+        <NIF>888999000H</NIF>
+        <Resultado valor="Apto"/>
+        <Observaciones>Se destaca en las actividades artísticas.</Observaciones>
+        <IP_MAC>
+            <MAC>44:55:66:77:88:99</MAC>
+        </IP_MAC>
+    </Alumno>
+
+</archivos>

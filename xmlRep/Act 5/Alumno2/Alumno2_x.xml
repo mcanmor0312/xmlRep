@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entrevista xmlns:xsd="http://www.w3.org/2001/XMLSxhema-instance">
+xsi:noNamespaceSchemaLocation="Alumno2_v2.xsd"
+    <candidato>
+        <nombre>Juan Perez</nombre>
+        <puesto>Desarrollador de Software</puesto>
+        <resultado>
+            <Apto/>
+        </resultado>
+        <observaciones>Excelente experiencia en desarrollo web.</observaciones>
+        <contacto>
+            <telefono>555-1234</telefono>
+            <correo>juan@example.com</correo>
+        </contacto>
+    </candidato>
+
+    <candidato>
+        <nombre>Maria Rodriguez</nombre>
+        <puesto>Analista de Datos</puesto>
+        <resultado>
+            <NoApto/>
+        </resultado>
+        <observaciones>Necesita mejorar habilidades en análisis estadístico.</observaciones>
+        <contacto>
+            <telefono>555-5678</telefono>
+            <correo>maria@example.com</correo>
+        </contacto>
+    </candidato>
+
+    <candidato>
+        <nombre>Carlos Gomez</nombre>
+        <puesto>Ingeniero de Sistemas</puesto>
+        <resultado>
+            <Apto/>
+        </resultado>
+        <observaciones>Experiencia en administración de redes.</observaciones>
+        <contacto>
+            <telefono>555-8765</telefono>
+            <correo>carlos@example.com</correo>
+        </contacto>
+    </candidato>
+
+    <candidato>
+        <nombre>Ana Martinez</nombre>
+        <puesto>Diseñadora Gráfica</puesto>
+        <resultado>
+            <Apto/>
+        </resultado>
+        <observaciones>Destreza en herramientas de diseño.</observaciones>
+        <contacto>
+            <telefono>555-4321</telefono>
+            <correo>ana@example.com</correo>
+        </contacto>
+    </candidato>
+    <candidato>
+        <nombre>Luis Hernandez</nombre>
+        <puesto>Consultor Financiero</puesto>
+        <resultado>
+            <Apto/>
+        </resultado>
+        <observaciones>Conocimiento profundo en finanzas corporativas.</observaciones>
+        <contacto>
+            <telefono>555-9999</telefono>
+            <correo>luis@example.com</correo>
+        </contacto>
+    </candidato>
+
+    <candidato>
+        <nombre>Sofia Ramirez</nombre>
+        <puesto>Analista de Marketing</puesto>
+        <resultado>
+            <NoApto/>
+        </resultado>
+        <observaciones>Necesita mejorar habilidades en análisis de mercado.</observaciones>
+        <contacto>
+            <telefono>555-6789</telefono>
+            <correo>sofia@example.com</correo>
+        </contacto>
+    </candidato>
+</entrevista>
