@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nba_players xmlns:xsd="http://www.w3.org/2001/XMLSxhema-instance">
+xsi:noNamespaceSchemaLocation="clientes_v2.xsd"
+    <jugador>
+        <nombre>LeBron James</nombre>
+        <equipo>Los Angeles Lakers</equipo>
+        <posicion>Delantero</posicion>
+        <altura>6'9"</altura>
+        <peso>250 lbs</peso>
+        <universidad>St. Vincent-St. Mary HS</universidad>
+        <año_draft>2003</año_draft>
+        <eleccion_draft>1º en general</eleccion_draft>
+        <equipo_draft>Cleveland Cavaliers</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Stephen Curry</nombre>
+        <equipo>Golden State Warriors</equipo>
+        <posicion>Base</posicion>
+        <altura>6'3"</altura>
+        <peso>185 lbs</peso>
+        <universidad>Davidson</universidad>
+        <año_draft>2009</año_draft>
+        <eleccion_draft>7º en general</eleccion_draft>
+        <equipo_draft>Golden State Warriors</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Stephen Curry</nombre>
+        <equipo>Golden State Warriors</equipo>
+        <posicion>Base</posicion>
+        <altura>6'3"</altura>
+        <peso>185 lbs</peso>
+        <universidad>Davidson</universidad>
+        <año_draft>2009</año_draft>
+        <eleccion_draft>7º en general</eleccion_draft>
+        <equipo_draft>Golden State Warriors</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Kawhi Leonard</nombre>
+        <equipo>Los Angeles Clippers</equipo>
+        <posicion>Delantero</posicion>
+        <altura>6'7"</altura>
+        <peso>225 lbs</peso>
+        <universidad>San Diego State</universidad>
+        <año_draft>2011</año_draft>
+        <eleccion_draft>15º en general</eleccion_draft>
+        <equipo_draft>Indiana Pacers</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Giannis Antetokounmpo</nombre>
+        <equipo>Milwaukee Bucks</equipo>
+        <posicion>Delantero</posicion>
+        <altura>6'11"</altura>
+        <peso>242 lbs</peso>
+        <universidad>filathlitikos</universidad>
+        <año_draft>2013</año_draft>
+        <eleccion_draft>15º en general</eleccion_draft>
+        <equipo_draft>Milwaukee Bucks</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Luka Dončić</nombre>
+        <equipo>Dallas Mavericks</equipo>
+        <posicion>Base-Delantero</posicion>
+        <altura>6'7"</altura>
+        <peso>230 lbs</peso>
+        <universidad>Real Madrid</universidad>
+        <año_draft>2018</año_draft>
+        <eleccion_draft>3º en general</eleccion_draft>
+        <equipo_draft>Atlanta Hawks (canjeado a Dallas Mavericks)</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Anthony Davis</nombre>
+        <equipo>Los Angeles Lakers</equipo>
+        <posicion>Delantero-Pívot</posicion>
+        <altura>6'10"</altura>
+        <peso>253 lbs</peso>
+        <universidad>Kentucky</universidad>
+        <año_draft>2012</año_draft>
+        <eleccion_draft>1º en general</eleccion_draft>
+        <equipo_draft>New Orleans Hornets</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Kevin Durant</nombre>
+        <equipo>Brooklyn Nets</equipo>
+        <posicion>Delantero</posicion>
+        <altura>6'10"</altura>
+        <peso>240 lbs</peso>
+        <universidad>Texas</universidad>
+        <año_draft>2007</año_draft>
+        <eleccion_draft>2º en general</eleccion_draft>
+        <equipo_draft>Seattle SuperSonics</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>James Harden</nombre>
+        <equipo>Brooklyn Nets</equipo>
+        <posicion>Escolta</posicion>
+        <altura>6'5"</altura>
+        <peso>220 lbs</peso>
+        <universidad>Arizona State</universidad>
+        <año_draft>2009</año_draft>
+        <eleccion_draft>3º en general</eleccion_draft>
+        <equipo_draft>Oklahoma City Thunder</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Damian Lillard</nombre>
+        <equipo>Portland Trail Blazers</equipo>
+        <posicion>Base</posicion>
+        <altura>6'2"</altura>
+        <peso>195 lbs</peso>
+        <universidad>Weber State</universidad>
+        <año_draft>2012</año_draft>
+        <eleccion_draft>6º en general</eleccion_draft>
+        <equipo_draft>Portland Trail Blazers</equipo_draft>
+    </jugador>
+    <jugador>
+        <nombre>Joel Embiid</nombre>
+        <equipo>Philadelphia 76ers</equipo>
+        <posicion>Pívot</posicion>
+        <altura>7'0"</altura>
+        <peso>280 lbs</peso>
+        <universidad>Kansas</universidad>
+        <año_draft>2014</año_draft>
+        <eleccion_draft>3º en general</eleccion_draft>
+        <equipo_draft>Philadelphia 76ers</equipo_draft>
+    </jugador>
+</nba_players>

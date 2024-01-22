@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<clientes_v1 xmlns:xsd="http://www.w3.org/2001/XMLSxhema-instance">
+xsi:noNamespaceSchemaLocation="clientes_v1.xsd"
+    <sede>
+        <dir1>Dirección Principal 123</dir1>
+        <dir2>Zona Central</dir2>
+        <empleado>Juan Pérez</empleado>
+        <fecha>2024-01-22</fecha>
+        <cliente1>
+            <cod>COD-001</cod>
+            <descripcion>Producto A</descripcion>
+            <numero>001</numero>
+            <coste>120.50</coste>
+            <resumen>Compra de producto A</resumen>
+            <plazo>30 días</plazo>
+        </cliente1>
+    </sede>
+    <sede>
+        <dir1>Avenida Comercial 789</dir1>
+        <dir2>Zona Este</dir2>
+        <empleado>Maria Rodriguez</empleado>
+        <fecha>2024-01-23</fecha>
+        <cliente1>
+            <cod>COD-002</cod>
+            <descripcion>Producto B</descripcion>
+            <numero>002</numero>
+            <coste>85.20</coste>
+            <resumen>Compra de producto B</resumen>
+            <plazo>45 días</plazo>
+        </cliente1>
+        <cliente2>
+            <cod>COD-003</cod>
+            <descripcion>Servicio de Consultoría</descripcion>
+            <numero>003</numero>
+            <coste>500.00</coste>
+            <resumen>Contrato de consultoría técnica</resumen>
+            <plazo>60 días</plazo>
+        </cliente2>
+    </sede>
+    <sede>
+        <dir1>Calle Innovación 555</dir1>
+        <dir2>Zona Oeste</dir2>
+        <empleado>Carlos Gómez</empleado>
+        <fecha>2024-01-24</fecha>
+        <cliente1>
+            <cod>COD-004</cod>
+            <descripcion>Producto C</descripcion>
+            <numero>004</numero>
+            <coste>150.75</coste>
+            <resumen>Compra de producto C</resumen>
+            <plazo>30 días</plazo>
+        </cliente1>
+        <cliente2>
+            <cod>COD-005</cod>
+            <descripcion>Servicio de Mantenimiento</descripcion>
+            <numero>005</numero>
+            <coste>300.00</coste>
+            <resumen>Mantenimiento preventivo</resumen>
+            <plazo>90 días</plazo>
+        </cliente2>
+    </sede>
+    <sede>
+        <dir1>Av. Tecnológica 789</dir1>
+        <dir2>Zona Industrial</dir2>
+        <empleado>Laura Martínez</empleado>
+        <fecha>2024-01-25</fecha>
+        <cliente1>
+            <cod>COD-006</cod>
+            <descripcion>Producto D</descripcion>
+            <numero>006</numero>
+            <coste>200.00</coste>
+            <resumen>Compra de producto D</resumen>
+            <plazo>60 días</plazo>
+        </cliente1>
+    </sede>
+    <sede>
+        <dir1>Plaza Comercial 123</dir1>
+        <dir2>Zona Residencial</dir2>
+        <empleado>Ricardo García</empleado>
+        <fecha>2024-01-26</fecha>
+        <cliente1>
+            <cod>COD-007</cod>
+            <descripcion>Producto E</descripcion>
+            <numero>007</numero>
+            <coste>75.50</coste>
+            <resumen>Compra de producto E</resumen>
+            <plazo>30 días</plazo>
+        </cliente1>
+        <cliente2>
+            <cod>COD-008</cod>
+            <descripcion>Servicio de Reparación</descripcion>
+            <numero>008</numero>
+            <coste>150.00</coste>
+            <resumen>Reparación de equipos</resumen>
+            <plazo>45 días</plazo>
+        </cliente2>
+    </sede>
+    <sede>
+        <dir1>Calzada del Sol 456</dir1>
+        <dir2>Zona Comercial</dir2>
+        <empleado>Marta Sánchez</empleado>
+        <fecha>2024-01-27</fecha>
+        <cliente1>
+            <cod>COD-009</cod>
+            <descripcion>Producto F</descripcion>
+            <numero>009</numero>
+            <coste>180.00</coste>
+            <resumen>Compra de producto F</resumen>
+            <plazo>30 días</plazo>
+        </cliente1>
+    </sede>
+    <sede>
+        <dir1>Paseo de la Montaña 789</dir1>
+        <dir2>Zona Turística</dir2>
+        <empleado>Roberto López</empleado>
+        <fecha>2024-01-28</fecha>
+        <cliente1>
+            <cod>COD-010</cod>
+            <descripcion>Producto G</descripcion>
+            <numero>010</numero>
+            <coste>250.00</coste>
+            <resumen>Compra de producto G</resumen>
+            <plazo>60 días</plazo>
+        </cliente1>
+        <cliente2>
+            <cod>COD-011</cod>
+            <descripcion>Servicio de Eventos</descripcion>
+            <numero>011</numero>
+            <coste>800.00</coste>
+            <resumen>Organización de eventos corporativos</resumen>
+            <plazo>90 días</plazo>
+        </cliente2>
+    </sede>
+    <sede>
+        <dir1>Ruta del Sol 123</dir1>
+        <dir2>Zona Costera</dir2>
+        <empleado>Isabel Martínez</empleado>
+        <fecha>2024-01-29</fecha>
+        <cliente1>
+            <cod>COD-012</cod>
+            <descripcion>Producto H</descripcion>
+            <numero>012</numero>
+            <coste>120.00</coste>
+            <resumen>Compra de producto H</resumen>
+            <plazo>30 días</plazo>
+        </cliente1>
+    </sede>
+</clientes_v1>
