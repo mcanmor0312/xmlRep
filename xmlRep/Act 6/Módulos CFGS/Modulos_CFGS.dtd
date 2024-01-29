@@ -1,0 +1,7 @@
+    <!ELEMENT Modulo (+nombre)>
+    <!ELEMENT nombre (nombre, contenidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT contenidos (UD)>
+    <!ELEMENT UD (Tipo, Descripcion)>
+    <!ELEMENT Tipo (#PCDATA)>
+    <!ELEMENT Descripcion (#PCDATA)>

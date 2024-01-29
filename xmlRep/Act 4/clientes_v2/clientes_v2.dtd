@@ -1,5 +1,5 @@
-    <!ELEMENT nba_players (player+)>
-    <!ELEMENT player (nombre, equipo, posicion, altura, peso, universidad, año_draft, eleccion_draft, equipo_draft)>
+    <!ELEMENT nba_players (jugador+)>
+    <!ELEMENT jugador (nombre, equipo, posicion, altura, peso, universidad, año_draft, eleccion_draft, equipo_draft)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT equipo (#PCDATA)>
     <!ELEMENT posicion (#PCDATA)>

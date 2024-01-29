@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Modulos_CFGS SYSTEM "Módulos_CFGS.dtd">
+<ModuloProfesional>
+ <Nombre>Primer año de DAM</Nombre>
+ <Asignaturas>
+    <Nombre>Base de datos</Nombre>
+    <Contenidos>
+      <UD>
+        <Tipo>Enseñanza breve e introduccion</Tipo>
+        <Descripcion>Descripción de la primera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Enseñanza de esquemas en base de datos</Tipo>
+        <Descripcion>Descripción de la segunda UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Enseñanza de esque mas mas avanzados en base de datos</Tipo>
+        <Descripcion>Descripción de la tercera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>introduccion en sql</Tipo>
+        <Descripcion>Descripción de la cuarta UD</Descripcion>
+      </UD>
+    </Contenidos>
+ </Asignaturas>
+ <Asignaturas>
+    <Nombre>Programación</Nombre>
+    <Contenidos>
+      <UD>
+        <Tipo>Introducción a la programación</Tipo>
+        <Descripcion>Descripción de la primera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Estructuras de control y bucles</Tipo>
+        <Descripcion>Descripción de la segunda UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Funciones y procedimientos</Tipo>
+        <Descripcion>Descripción de la tercera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Programación orientada a objetos</Tipo>
+        <Descripcion>Descripción de la cuarta UD</Descripcion>
+      </UD>
+    </Contenidos>
+ </Asignaturas>
+ <Asignaturas>
+    <Nombre>Lenguajes de Marcas</Nombre>
+    <Contenidos>
+      <UD>
+        <Tipo>Introducción a HTML</Tipo>
+        <Descripcion>Descripción de la primera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Creación de páginas web con HTML</Tipo>
+        <Descripcion>Descripción de la segunda UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Introducción a CSS</Tipo>
+        <Descripcion>Descripción de la tercera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Estilización de páginas web con CSS</Tipo>
+        <Descripcion>Descripción de la cuarta UD</Descripcion>
+      </UD>
+    </Contenidos>
+ </Asignaturas>
+ <Asignaturas>
+    <Nombre>Entorno de Desarrollo</Nombre>
+    <Contenidos>
+      <UD>
+        <Tipo>Introducción a los entornos de desarrollo</Tipo>
+        <Descripcion>Descripción de la primera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Configuración de entornos de desarrollo</Tipo>
+        <Descripcion>Descripción de la segunda UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Depuración en entornos de desarrollo</Tipo>
+        <Descripcion>Descripción de la tercera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Control de versiones en entornos de desarrollo</Tipo>
+        <Descripcion>Descripción de la cuarta UD</Descripcion>
+      </UD>
+    </Contenidos>
+ </Asignaturas>
+<Asignaturas>
+    <Nombre>Sistemas Informáticos</Nombre>
+    <Contenidos>
+      <UD>
+        <Tipo>Introducción a los sistemas operativos</Tipo>
+        <Descripcion>Descripción de la primera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Administración de sistemas informáticos</Tipo>
+        <Descripcion>Descripción de la segunda UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Redes de computadoras</Tipo>
+        <Descripcion>Descripción de la tercera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Seguridad informática</Tipo>
+        <Descripcion>Descripción de la cuarta UD</Descripcion>
+      </UD>
+    </Contenidos>
+ </Asignaturas>
+<Asignaturas>
+    <Nombre>Formación y Orientación Laboral</Nombre>
+    <Contenidos>
+      <UD>
+        <Tipo>Introducción a la formación profesional</Tipo>
+        <Descripcion>Descripción de la primera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Metodologías de aprendizaje</Tipo>
+        <Descripcion>Descripción de la segunda UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Orientación laboral</Tipo>
+        <Descripcion>Descripción de la tercera UD</Descripcion>
+      </UD>
+      <UD>
+        <Tipo>Búsqueda de empleo</Tipo>
+        <Descripcion>Descripción de la cuarta UD</Descripcion>
+      </UD>
+    </Contenidos>
+ </Asignaturas>
+</ModuloProfesional>
