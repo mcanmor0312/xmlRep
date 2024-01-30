@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Departamento xmlns:xsd="http://www.w3.org/2001/XMLSxhema-instance">
+xsi:noNamespaceSchemaLocation="Modulos_CFGS_duplicado.xsd">
+    <Nombre>Departamento de Medicina</Nombre>
+    <Carreras>
+        <Nombre>Medicina General</Nombre>
+        <Asignaturas>
+            <Nombre>Anatomía</Nombre>
+            <UnidadesDidacticas>
+                <Tipo>Teórico</Tipo>
+                <Descripcion>Estudio de la estructura del cuerpo humano.</Descripcion>
+            </UnidadesDidacticas>
+            <UnidadesDidacticas>
+                <Tipo>Práctico</Tipo>
+                <Descripcion>Prácticas de disección y observación.</Descripcion>
+            </UnidadesDidacticas>
+        </Asignaturas>
+        <Asignaturas>
+            <Nombre>Patología</Nombre>
+            <UnidadesDidacticas>
+                <Tipo>Teórico</Tipo>
+                <Descripcion>Estudio de enfermedades y trastornos.</Descripcion>
+            </UnidadesDidacticas>
+            <UnidadesDidacticas>
+                <Tipo>Práctico</Tipo>
+                <Descripcion>Observación clínica de pacientes.</Descripcion>
+            </UnidadesDidacticas>
+        </Asignaturas>
+    </Carreras>
+    <Carreras>
+        <Nombre>Oftalmología</Nombre>
+        <Asignaturas>
+            <Nombre>Anatomía ocular</Nombre>
+            <UnidadesDidacticas>
+                <Tipo>Teórico</Tipo>
+                <Descripcion>Estudio de la estructura del ojo humano.</Descripcion>
+            </UnidadesDidacticas>
+            <UnidadesDidacticas>
+                <Tipo>Práctico</Tipo>
+                <Descripcion>Prácticas de cirugía ocular.</Descripcion>
+            </UnidadesDidacticas>
+        </Asignaturas>
+    </Carreras>
+</Departamento>
