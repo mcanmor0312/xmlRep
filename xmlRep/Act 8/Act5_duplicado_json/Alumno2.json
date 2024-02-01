@@ -1,0 +1,78 @@
+{
+    "entrevista": {
+      "candidato": [
+        {
+          "nombre": "Juan Perez",
+          "puesto": "Desarrollador de Software",
+          "resultado": {
+            "Apto": ""
+          },
+          "observaciones": "Excelente experiencia en desarrollo web.",
+          "contacto": {
+            "telefono": "555-1234",
+            "correo": "juan@example.com"
+          }
+        },
+        {
+          "nombre": "Maria Rodriguez",
+          "puesto": "Analista de Datos",
+          "resultado": {
+            "NoApto": ""
+          },
+          "observaciones": "Necesita mejorar habilidades en análisis estadístico.",
+          "contacto": {
+            "telefono": "555-5678",
+            "correo": "maria@example.com"
+          }
+        },
+        {
+          "nombre": "Carlos Gomez",
+          "puesto": "Ingeniero de Sistemas",
+          "resultado": {
+            "Apto": ""
+          },
+          "observaciones": "Experiencia en administración de redes.",
+          "contacto": {
+            "telefono": "555-8765",
+            "correo": "carlos@example.com"
+          }
+        },
+        {
+          "nombre": "Ana Martinez",
+          "puesto": "Diseñadora Gráfica",
+          "resultado": {
+            "Apto": ""
+          },
+          "observaciones": "Destreza en herramientas de diseño.",
+          "contacto": {
+            "telefono": "555-4321",
+            "correo": "ana@example.com"
+          }
+        },
+        {
+          "nombre": "Luis Hernandez",
+          "puesto": "Consultor Financiero",
+          "resultado": {
+            "Apto": ""
+          },
+          "observaciones": "Conocimiento profundo en finanzas corporativas.",
+          "contacto": {
+            "telefono": "555-9999",
+            "correo": "luis@example.com"
+          }
+        },
+        {
+          "nombre": "Sofia Ramirez",
+          "puesto": "Analista de Marketing",
+          "resultado": {
+            "NoApto": ""
+          },
+          "observaciones": "Necesita mejorar habilidades en análisis de mercado.",
+          "contacto": {
+            "telefono": "555-6789",
+            "correo": "sofia@example.com"
+          }
+        }
+      ]
+    }
+  }

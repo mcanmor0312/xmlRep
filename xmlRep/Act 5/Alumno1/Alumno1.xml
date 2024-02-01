@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE clientes_v1 SYSTEM "Alumno1.dtd">
+<!DOCTYPE Alumno1 SYSTEM "Alumno1.dtd">
 <archivos>
     <Alumno>
         <NIF>123456789A</NIF>
