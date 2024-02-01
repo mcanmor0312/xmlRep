@@ -1,7 +1,7 @@
-    <!ELEMENT Modulo (+nombre)>
-    <!ELEMENT nombre (nombre, contenidos)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT contenidos (UD)>
-    <!ELEMENT UD (Tipo, Descripcion)>
-    <!ELEMENT Tipo (#PCDATA)>
-    <!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT ModuloProfesional (Nombre, Asignaturas+)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Asignaturas (Nombre, Contenidos)>
+<!ELEMENT Contenidos (UD+)>
+<!ELEMENT UD (Tipo, Descripcion)>
+<!ELEMENT Tipo (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>

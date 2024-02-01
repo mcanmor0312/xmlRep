@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="reporteVentas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="informeRegion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="explicacion" type="xs:string" />
+                            <xs:element name="area">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="norte">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="periodos">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="periodo1">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="entradasVendidas" type="xs:integer" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="periodo2">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="entradasVendidas" type="xs:integer" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="periodo3">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="entradasVendidas" type="xs:integer" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="periodo4">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="entradasVendidas" type="xs:integer" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="centro">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="periodos">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="periodo1">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="entradasVendidas" type="xs:integer" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="sur">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="periodos">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="periodo1">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="entradasVendidas" type="xs:integer" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="fecha" type="xs:date" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

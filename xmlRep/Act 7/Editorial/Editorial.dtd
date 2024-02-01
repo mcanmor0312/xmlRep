@@ -1,0 +1,14 @@
+<!ELEMENT reporteVentas (informeRegion)>
+<!ELEMENT informeRegion (explicacion, area)>
+<!ATTLIST informeRegion fecha CDATA #REQUIRED>
+<!ELEMENT explicacion (#PCDATA)>
+<!ELEMENT area (norte, centro, sur)>
+<!ELEMENT norte (periodos)>
+<!ELEMENT centro (periodos)>
+<!ELEMENT sur (periodos)>
+<!ELEMENT periodos (periodo1, periodo2, periodo3, periodo4)>
+<!ELEMENT periodo1 (librosComprados)>
+<!ELEMENT periodo2 (librosComprados)>
+<!ELEMENT periodo3 (librosComprados)>
+<!ELEMENT periodo4 (librosComprados)>
+<!ELEMENT librosComprados (#PCDATA)>

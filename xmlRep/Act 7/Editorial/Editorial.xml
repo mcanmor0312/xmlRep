@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Editorial.xml SYSTEM "Editorial.dtd">
+<reporteVentas>
+    <informeRegion fecha="2023-04-01">
+        <explicacion>Este informe presenta las ventas de libros durante el primer trimestre del año 2023.</explicacion>
+        <area>
+            <norte>
+                <periodos>
+                    <periodo1>500</periodo1>
+                    <periodo2>600</periodo2>
+                    <periodo3>700</periodo3>
+                    <periodo4>800</periodo4>
+                </periodos>
+            </norte>
+            <centro>
+                <periodos>
+                    <periodo1>900</periodo1>
+                    <periodo2>1000</periodo2>
+                    <periodo3>1100</periodo3>
+                    <periodo4>1200</periodo4>
+                </periodos>
+            </centro>
+            <sur>
+                <periodos>
+                    <periodo1>1300</periodo1>
+                    <periodo2>1400</periodo2>
+                    <periodo3>1500</periodo3>
+                    <periodo4>1600</periodo4>
+                </periodos>
+            </sur>
+        </area>
+    </informeRegion>
+    <informeRegion fecha="2023-04-01">
+        <explicacion>Este informe presenta las ventas de libros durante el primer trimestre del año 2023.</explicacion>
+        <area>
+            <norte>
+                <periodos>
+                    <periodo1>500</periodo1>
+                    <periodo2>600</periodo2>
+                    <periodo3>700</periodo3>
+                    <periodo4>800</periodo4>
+                </periodos>
+            </norte>
+            <centro>
+                <periodos>
+                    <periodo1>900</periodo1>
+                    <periodo2>1000</periodo2>
+                    <periodo3>1100</periodo3>
+                    <periodo4>1200</periodo4>
+                </periodos>
+            </centro>
+            <sur>
+                <periodos>
+                    <periodo1>1300</periodo1>
+                    <periodo2>1400</periodo2>
+                    <periodo3>1500</periodo3>
+                    <periodo4>1600</periodo4>
+                </periodos>
+            </sur>
+        </area>
+    </informeRegion>
+    <informeRegion fecha="2023-07-01">
+        <explicacion>Este informe presenta las ventas de libros durante el segundo trimestre del año 2023.</explicacion>
+        <area>
+            <norte>
+                <periodos>
+                    <periodo1>1700</periodo1>
+                    <periodo2>1800</periodo2>
+                    <periodo3>1900</periodo3>
+                    <periodo4>2000</periodo4>
+                </periodos>
+            </norte>
+            <centro>
+                <periodos>
+                    <periodo1>2100</periodo1>
+                    <periodo2>2200</periodo2>
+                    <periodo3>2300</periodo3>
+                    <periodo4>2400</periodo4>
+                </periodos>
+            </centro>
+            <sur>
+                <periodos>
+                    <periodo1>2500</periodo1>
+                    <periodo2>2600</periodo2>
+                    <periodo3>2700</periodo3>
+                    <periodo4>2800</periodo4>
+                </periodos>
+            </sur>
+        </area>
+    </informeRegion>
+</reporteVentas>

@@ -1,0 +1,7 @@
+<!ELEMENT Departamento (Nombre, Carreras+)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Carreras (Nombre, Asignaturas+)>
+<!ELEMENT Asignaturas (Nombre, UnidadesDidacticas+)>
+<!ELEMENT UnidadesDidacticas (Tipo, Descripcion)>
+<!ELEMENT Tipo (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
