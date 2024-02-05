@@ -1,0 +1,252 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "biblioteca": {
+        "type": "object",
+        "properties": {
+          "libro": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "integer"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "titulo": {
+                    "type": "string"
+                  },
+                  "autor": {
+                    "type": "string"
+                  },
+                  "publicacion": {
+                    "type": "integer"
+                  },
+                  "genero": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "titulo",
+                  "autor",
+                  "publicacion",
+                  "genero"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "libro"
+        ]
+      }
+    },
+    "required": [
+      "biblioteca"
+    ]
+  }

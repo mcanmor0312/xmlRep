@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Editorial_duplicado.xml SYSTEM "Editorial_duplicado.dtd">
 <reporteVentas xmlns:xsd="http://www.w3.org/2001/XMLSxhema-instance">
 xsi:noNamespaceSchemaLocation="Editorial_duplicado.xsd">
   <informeRegion fecha="2024-02-01">

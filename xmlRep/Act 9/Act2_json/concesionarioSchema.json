@@ -1,0 +1,372 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "Concesionario": {
+        "type": "object",
+        "properties": {
+          "Coche": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Codigo": {
+                    "type": "integer"
+                  },
+                  "Marca": {
+                    "type": "string"
+                  },
+                  "Modelo": {
+                    "type": "string"
+                  },
+                  "Matricula": {
+                    "type": "string"
+                  },
+                  "Potencia": {
+                    "type": "integer"
+                  },
+                  "Plazas": {
+                    "type": "integer"
+                  },
+                  "Puertas": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "Codigo",
+                  "Marca",
+                  "Modelo",
+                  "Matricula",
+                  "Potencia",
+                  "Plazas",
+                  "Puertas"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "Coche"
+        ]
+      }
+    },
+    "required": [
+      "Concesionario"
+    ]
+  }

@@ -1,0 +1,536 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "ModuloProfesional": {
+        "type": "object",
+        "properties": {
+          "Nombre": {
+            "type": "string"
+          },
+          "Asignaturas": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "Contenidos": {
+                    "type": "object",
+                    "properties": {
+                      "UD": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "UD"
+                    ]
+                  }
+                },
+                "required": [
+                  "Nombre",
+                  "Contenidos"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "Contenidos": {
+                    "type": "object",
+                    "properties": {
+                      "UD": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "UD"
+                    ]
+                  }
+                },
+                "required": [
+                  "Nombre",
+                  "Contenidos"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "Contenidos": {
+                    "type": "object",
+                    "properties": {
+                      "UD": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "UD"
+                    ]
+                  }
+                },
+                "required": [
+                  "Nombre",
+                  "Contenidos"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "Contenidos": {
+                    "type": "object",
+                    "properties": {
+                      "UD": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "UD"
+                    ]
+                  }
+                },
+                "required": [
+                  "Nombre",
+                  "Contenidos"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "Contenidos": {
+                    "type": "object",
+                    "properties": {
+                      "UD": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "UD"
+                    ]
+                  }
+                },
+                "required": [
+                  "Nombre",
+                  "Contenidos"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "Contenidos": {
+                    "type": "object",
+                    "properties": {
+                      "UD": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "Tipo": {
+                                "type": "string"
+                              },
+                              "Descripcion": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "Tipo",
+                              "Descripcion"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "UD"
+                    ]
+                  }
+                },
+                "required": [
+                  "Nombre",
+                  "Contenidos"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "Nombre",
+          "Asignaturas"
+        ]
+      }
+    },
+    "required": [
+      "ModuloProfesional"
+    ]
+  }

@@ -1,0 +1,165 @@
+{
+    "reporteVentas": {
+      "informeRegion": [
+        {
+          "explicacion": "Informe de ventas por región",
+          "area": {
+            "norte": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 150
+                },
+                "periodo2": {
+                  "entradasVendidas": 110
+                },
+                "periodo3": {
+                  "entradasVendidas": 130
+                },
+                "periodo4": {
+                  "entradasVendidas": 90
+                }
+              }
+            },
+            "centro": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 100
+                },
+                "periodo2": {
+                  "entradasVendidas": 120
+                },
+                "periodo3": {
+                  "entradasVendidas": 80
+                },
+                "periodo4": {
+                  "entradasVendidas": 110
+                }
+              }
+            },
+            "sur": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 90
+                },
+                "periodo2": {
+                  "entradasVendidas": 140
+                },
+                "periodo3": {
+                  "entradasVendidas": 100
+                },
+                "periodo4": {
+                  "entradasVendidas": 120
+                }
+              }
+            }
+          }
+        },
+        {
+          "explicacion": "Informe de ventas por región",
+          "area": {
+            "norte": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 100
+                },
+                "periodo2": {
+                  "entradasVendidas": 120
+                },
+                "periodo3": {
+                  "entradasVendidas": 90
+                },
+                "periodo4": {
+                  "entradasVendidas": 110
+                }
+              }
+            },
+            "centro": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 80
+                },
+                "periodo2": {
+                  "entradasVendidas": 130
+                },
+                "periodo3": {
+                  "entradasVendidas": 95
+                },
+                "periodo4": {
+                  "entradasVendidas": 105
+                }
+              }
+            },
+            "sur": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 110
+                },
+                "periodo2": {
+                  "entradasVendidas": 115
+                },
+                "periodo3": {
+                  "entradasVendidas": 100
+                },
+                "periodo4": {
+                  "entradasVendidas": 120
+                }
+              }
+            }
+          }
+        },
+        {
+          "explicacion": "Informe de ventas por región",
+          "area": {
+            "norte": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 150
+                },
+                "periodo2": {
+                  "entradasVendidas": 110
+                },
+                "periodo3": {
+                  "entradasVendidas": 130
+                },
+                "periodo4": {
+                  "entradasVendidas": 90
+                }
+              }
+            },
+            "centro": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 100
+                },
+                "periodo2": {
+                  "entradasVendidas": 120
+                },
+                "periodo3": {
+                  "entradasVendidas": 80
+                },
+                "periodo4": {
+                  "entradasVendidas": 110
+                }
+              }
+            },
+            "sur": {
+              "periodos": {
+                "periodo1": {
+                  "entradasVendidas": 90
+                },
+                "periodo2": {
+                  "entradasVendidas": 140
+                },
+                "periodo3": {
+                  "entradasVendidas": 100
+                },
+                "periodo4": {
+                  "entradasVendidas": 120
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }

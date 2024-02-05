@@ -1,0 +1,252 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "BDSMS": {
+        "type": "object",
+        "properties": {
+          "contacto": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "telefono": {
+                    "type": "integer"
+                  },
+                  "fechaNacimiento": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "nombre",
+                  "telefono",
+                  "fechaNacimiento",
+                  "email"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "contacto"
+        ]
+      }
+    },
+    "required": [
+      "BDSMS"
+    ]
+  }

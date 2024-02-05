@@ -1,0 +1,363 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "archivos": {
+        "type": "object",
+        "properties": {
+          "Alumno": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "IP": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "IP"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "MAC": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "MAC"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "IP": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "IP"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "MAC": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "MAC"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "IP": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "IP"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "IP": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "IP"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "MAC": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "MAC"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "IP": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "IP"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "MAC": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "MAC"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "IP": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "IP"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "NIF": {
+                    "type": "string"
+                  },
+                  "Resultado": {
+                    "type": "string"
+                  },
+                  "Observaciones": {
+                    "type": "string"
+                  },
+                  "IP_MAC": {
+                    "type": "object",
+                    "properties": {
+                      "MAC": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "MAC"
+                    ]
+                  }
+                },
+                "required": [
+                  "NIF",
+                  "Resultado",
+                  "Observaciones",
+                  "IP_MAC"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "Alumno"
+        ]
+      }
+    },
+    "required": [
+      "archivos"
+    ]
+  }

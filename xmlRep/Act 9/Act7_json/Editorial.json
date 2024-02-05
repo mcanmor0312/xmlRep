@@ -1,0 +1,65 @@
+{
+    "reporteVentas": {
+       "informeRegion": [
+         {
+           "explicacion": "Este informe presenta las ventas de libros durante el primer trimestre del año 2023.",
+           "area": {
+             "norte": {
+               "periodos": {
+                 "periodo1": "500",
+                 "periodo2": "600",
+                 "periodo3": "700",
+                 "periodo4": "800"
+               }
+             },
+             "centro": {
+               "periodos": {
+                 "periodo1": "900",
+                 "periodo2": "1000",
+                 "periodo3": "1100",
+                 "periodo4": "1200"
+               }
+             },
+             "sur": {
+               "periodos": {
+                 "periodo1": "1300",
+                 "periodo2": "1400",
+                 "periodo3": "1500",
+                 "periodo4": "1600"
+               }
+             }
+           }
+         },
+         {
+           "explicacion": "Este informe presenta las ventas de libros durante el segundo trimestre del año 2023.",
+           "area": {
+             "norte": {
+               "periodos": {
+                 "periodo1": "1700",
+                 "periodo2": "1800",
+                 "periodo3": "1900",
+                 "periodo4": "2000"
+               }
+             },
+             "centro": {
+               "periodos": {
+                 "periodo1": "2100",
+                 "periodo2": "2200",
+                 "periodo3": "2300",
+                 "periodo4": "2400"
+               }
+             },
+             "sur": {
+               "periodos": {
+                 "periodo1": "2500",
+                 "periodo2": "2600",
+                 "periodo3": "2700",
+                 "periodo4": "2800"
+               }
+             }
+           }
+         }
+       ]
+    }
+   }
+   

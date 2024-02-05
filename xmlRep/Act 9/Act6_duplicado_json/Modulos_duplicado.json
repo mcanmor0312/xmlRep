@@ -1,0 +1,54 @@
+{
+    "Departamento": {
+      "Nombre": "Departamento de Medicina",
+      "Carreras": [
+        {
+          "Nombre": "Medicina General",
+          "Asignaturas": [
+            {
+              "Nombre": "Anatomía",
+              "UnidadesDidacticas": [
+                {
+                  "Tipo": "Teórico",
+                  "Descripcion": "Estudio de la estructura del cuerpo humano."
+                },
+                {
+                  "Tipo": "Práctico",
+                  "Descripcion": "Prácticas de disección y observación."
+                }
+              ]
+            },
+            {
+              "Nombre": "Patología",
+              "UnidadesDidacticas": [
+                {
+                  "Tipo": "Teórico",
+                  "Descripcion": "Estudio de enfermedades y trastornos."
+                },
+                {
+                  "Tipo": "Práctico",
+                  "Descripcion": "Observación clínica de pacientes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Nombre": "Oftalmología",
+          "Asignaturas": {
+            "Nombre": "Anatomía ocular",
+            "UnidadesDidacticas": [
+              {
+                "Tipo": "Teórico",
+                "Descripcion": "Estudio de la estructura del ojo humano."
+              },
+              {
+                "Tipo": "Práctico",
+                "Descripcion": "Prácticas de cirugía ocular."
+              }
+            ]
+          }
+        }
+    ]
+    }
+  }
