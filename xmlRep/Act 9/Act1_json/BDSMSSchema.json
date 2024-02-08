@@ -1,252 +1,43 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "BDSMS": {
-        "type": "object",
-        "properties": {
-          "sms": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "BDSMS": {
+      "type": "object",
+      "properties": {
+        "sms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "telefono": {
+                "type": "number"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
+              "fecha": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
+              "hora": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "hora": {
-                    "type": "string"
-                  },
-                  "mensaje": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "telefono",
-                  "fecha",
-                  "hora",
-                  "mensaje"
-                ]
+              "mensaje": {
+                "type": "string"
               }
+            },
+            "required": [
+              "telefono",
+              "fecha",
+              "hora",
+              "mensaje"
             ]
           }
-        },
-        "required": [
-          "sms"
-        ]
-      }
-    },
-    "required": [
-      "BDSMS"
-    ]
-  }
+        }
+      },
+      "required": [
+        "sms"
+      ]
+    }
+  },
+  "required": [
+    "BDSMS"
+  ]
+}

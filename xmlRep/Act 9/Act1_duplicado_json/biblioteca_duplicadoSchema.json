@@ -1,252 +1,44 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "ListaPeliculas": {
-        "type": "object",
-        "properties": {
-          "Pelicula": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "ListaPeliculas": {
+      "type": "object",
+      "properties": {
+        "Pelicula": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Titulo": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
+              "Director": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
+              "AnioLanzamiento": {
+                "type": "number"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Titulo": {
-                    "type": "string"
-                  },
-                  "Director": {
-                    "type": "string"
-                  },
-                  "AnioLanzamiento": {
-                    "type": "integer"
-                  },
-                  "Genero": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Titulo",
-                  "Director",
-                  "AnioLanzamiento",
-                  "Genero"
-                ]
+              "Genero": {
+                "type": "string"
               }
+            },
+            "required": [
+              "Titulo",
+              "Director",
+              "AnioLanzamiento",
+              "Genero"
             ]
           }
-        },
-        "required": [
-          "Pelicula"
-        ]
-      }
-    },
-    "required": [
-      "ListaPeliculas"
-    ]
-  }
+        }
+      },
+      "required": [
+        "Pelicula"
+      ]
+    }
+  },
+  "required": [
+    "ListaPeliculas"
+  ]
+}

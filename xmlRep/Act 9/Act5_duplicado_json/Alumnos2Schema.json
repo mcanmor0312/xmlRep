@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "entrevista": {
+      "type": "object",
+      "properties": {
+        "candidato": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nombre": {
+                "type": "string"
+              },
+              "puesto": {
+                "type": "string"
+              },
+              "resultado": {
+                "type": "object",
+                "properties": {
+                  "Apto": {
+                    "type": "string"
+                  },
+                  "NoApto": {
+                    "type": "string"
+                  }
+                },
+                "required": []
+              },
+              "observaciones": {
+                "type": "string"
+              },
+              "contacto": {
+                "type": "object",
+                "properties": {
+                  "telefono": {
+                    "type": "string"
+                  },
+                  "correo": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "telefono",
+                  "correo"
+                ]
+              }
+            },
+            "required": [
+              "nombre",
+              "puesto",
+              "resultado",
+              "observaciones",
+              "contacto"
+            ]
+          }
+        }
+      },
+      "required": [
+        "candidato"
+      ]
+    }
+  },
+  "required": [
+    "entrevista"
+  ]
+}

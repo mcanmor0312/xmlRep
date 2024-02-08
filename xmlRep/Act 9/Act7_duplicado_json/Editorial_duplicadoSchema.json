@@ -1,655 +1,232 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "reporteVentas": {
-        "type": "object",
-        "properties": {
-          "informeRegion": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "explicacion": {
-                    "type": "string"
-                  },
-                  "area": {
-                    "type": "object",
-                    "properties": {
-                      "norte": {
-                        "type": "object",
-                        "properties": {
-                          "periodos": {
-                            "type": "object",
-                            "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              }
-                            },
-                            "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
-                            ]
-                          }
-                        },
-                        "required": [
-                          "periodos"
-                        ]
-                      },
-                      "centro": {
-                        "type": "object",
-                        "properties": {
-                          "periodos": {
-                            "type": "object",
-                            "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              }
-                            },
-                            "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
-                            ]
-                          }
-                        },
-                        "required": [
-                          "periodos"
-                        ]
-                      },
-                      "sur": {
-                        "type": "object",
-                        "properties": {
-                          "periodos": {
-                            "type": "object",
-                            "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              }
-                            },
-                            "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
-                            ]
-                          }
-                        },
-                        "required": [
-                          "periodos"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "norte",
-                      "centro",
-                      "sur"
-                    ]
-                  }
-                },
-                "required": [
-                  "explicacion",
-                  "area"
-                ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "reporteVentas": {
+      "type": "object",
+      "properties": {
+        "informeRegion": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "explicacion": {
+                "type": "string"
               },
-              {
+              "area": {
                 "type": "object",
                 "properties": {
-                  "explicacion": {
-                    "type": "string"
-                  },
-                  "area": {
+                  "norte": {
                     "type": "object",
                     "properties": {
-                      "norte": {
+                      "periodos": {
                         "type": "object",
                         "properties": {
-                          "periodos": {
+                          "periodo1": {
                             "type": "object",
                             "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
+                              "entradasVendidas": {
+                                "type": "number"
                               }
                             },
                             "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo2": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo3": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo4": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
                             ]
                           }
                         },
                         "required": [
-                          "periodos"
-                        ]
-                      },
-                      "centro": {
-                        "type": "object",
-                        "properties": {
-                          "periodos": {
-                            "type": "object",
-                            "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              }
-                            },
-                            "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
-                            ]
-                          }
-                        },
-                        "required": [
-                          "periodos"
-                        ]
-                      },
-                      "sur": {
-                        "type": "object",
-                        "properties": {
-                          "periodos": {
-                            "type": "object",
-                            "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              }
-                            },
-                            "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
-                            ]
-                          }
-                        },
-                        "required": [
-                          "periodos"
+                          "periodo1",
+                          "periodo2",
+                          "periodo3",
+                          "periodo4"
                         ]
                       }
                     },
                     "required": [
-                      "norte",
-                      "centro",
-                      "sur"
+                      "periodos"
                     ]
-                  }
-                },
-                "required": [
-                  "explicacion",
-                  "area"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "explicacion": {
-                    "type": "string"
                   },
-                  "area": {
+                  "centro": {
                     "type": "object",
                     "properties": {
-                      "norte": {
+                      "periodos": {
                         "type": "object",
                         "properties": {
-                          "periodos": {
+                          "periodo1": {
                             "type": "object",
                             "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
+                              "entradasVendidas": {
+                                "type": "number"
                               }
                             },
                             "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo2": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo3": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo4": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
                             ]
                           }
                         },
                         "required": [
-                          "periodos"
-                        ]
-                      },
-                      "centro": {
-                        "type": "object",
-                        "properties": {
-                          "periodos": {
-                            "type": "object",
-                            "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              }
-                            },
-                            "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
-                            ]
-                          }
-                        },
-                        "required": [
-                          "periodos"
-                        ]
-                      },
-                      "sur": {
-                        "type": "object",
-                        "properties": {
-                          "periodos": {
-                            "type": "object",
-                            "properties": {
-                              "periodo1": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo2": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo3": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              },
-                              "periodo4": {
-                                "type": "object",
-                                "properties": {
-                                  "entradasVendidas": {
-                                    "type": "integer"
-                                  }
-                                },
-                                "required": [
-                                  "entradasVendidas"
-                                ]
-                              }
-                            },
-                            "required": [
-                              "periodo1",
-                              "periodo2",
-                              "periodo3",
-                              "periodo4"
-                            ]
-                          }
-                        },
-                        "required": [
-                          "periodos"
+                          "periodo1",
+                          "periodo2",
+                          "periodo3",
+                          "periodo4"
                         ]
                       }
                     },
                     "required": [
-                      "norte",
-                      "centro",
-                      "sur"
+                      "periodos"
+                    ]
+                  },
+                  "sur": {
+                    "type": "object",
+                    "properties": {
+                      "periodos": {
+                        "type": "object",
+                        "properties": {
+                          "periodo1": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo2": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo3": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          },
+                          "periodo4": {
+                            "type": "object",
+                            "properties": {
+                              "entradasVendidas": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "entradasVendidas"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "periodo1",
+                          "periodo2",
+                          "periodo3",
+                          "periodo4"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "periodos"
                     ]
                   }
                 },
                 "required": [
-                  "explicacion",
-                  "area"
+                  "norte",
+                  "centro",
+                  "sur"
                 ]
               }
+            },
+            "required": [
+              "explicacion",
+              "area"
             ]
           }
-        },
-        "required": [
-          "informeRegion"
-        ]
-      }
-    },
-    "required": [
-      "reporteVentas"
-    ]
-  }
+        }
+      },
+      "required": [
+        "informeRegion"
+      ]
+    }
+  },
+  "required": [
+    "reporteVentas"
+  ]
+}

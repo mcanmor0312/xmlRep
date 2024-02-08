@@ -1,407 +1,54 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "Puerto": {
-        "type": "object",
-        "properties": {
-          "Barco": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "string"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "Puerto": {
+      "type": "object",
+      "properties": {
+        "Barco": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Codigo": {
+                "type": "number"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "string"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
+              "Marca": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "string"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
+              "Modelo": {},
+              "Matricula": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "string"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
+              "Potencia": {
+                "type": "number"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "string"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
+              "CapacidadPasajeros": {
+                "type": "number"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "integer"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "string"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "integer"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "integer"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "integer"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "Codigo": {
-                    "type": "integer"
-                  },
-                  "Marca": {
-                    "type": "string"
-                  },
-                  "Modelo": {
-                    "type": "integer"
-                  },
-                  "Matricula": {
-                    "type": "string"
-                  },
-                  "Potencia": {
-                    "type": "integer"
-                  },
-                  "CapacidadPasajeros": {
-                    "type": "integer"
-                  },
-                  "NumeroCabinas": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "Codigo",
-                  "Marca",
-                  "Modelo",
-                  "Matricula",
-                  "Potencia",
-                  "CapacidadPasajeros",
-                  "NumeroCabinas"
-                ]
+              "NumeroCabinas": {
+                "type": "number"
               }
+            },
+            "required": [
+              "Codigo",
+              "Marca",
+              "Modelo",
+              "Matricula",
+              "Potencia",
+              "CapacidadPasajeros",
+              "NumeroCabinas"
             ]
           }
-        },
-        "required": [
-          "Barco"
-        ]
-      }
-    },
-    "required": [
-      "Puerto"
-    ]
-  }
+        }
+      },
+      "required": [
+        "Barco"
+      ]
+    }
+  },
+  "required": [
+    "Puerto"
+  ]
+}

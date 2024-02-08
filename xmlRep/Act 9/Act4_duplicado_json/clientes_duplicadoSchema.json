@@ -1,495 +1,64 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "nba_players": {
-        "type": "object",
-        "properties": {
-          "jugador": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "nba_players": {
+      "type": "object",
+      "properties": {
+        "jugador": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nombre": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "equipo": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "posicion": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "altura": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "peso": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "universidad": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "año_draft": {
+                "type": "number"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "eleccion_draft": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "equipo": {
-                    "type": "string"
-                  },
-                  "posicion": {
-                    "type": "string"
-                  },
-                  "altura": {
-                    "type": "string"
-                  },
-                  "peso": {
-                    "type": "string"
-                  },
-                  "universidad": {
-                    "type": "string"
-                  },
-                  "año_draft": {
-                    "type": "integer"
-                  },
-                  "eleccion_draft": {
-                    "type": "string"
-                  },
-                  "equipo_draft": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "equipo",
-                  "posicion",
-                  "altura",
-                  "peso",
-                  "universidad",
-                  "año_draft",
-                  "eleccion_draft",
-                  "equipo_draft"
-                ]
+              "equipo_draft": {
+                "type": "string"
               }
+            },
+            "required": [
+              "nombre",
+              "equipo",
+              "posicion",
+              "altura",
+              "peso",
+              "universidad",
+              "año_draft",
+              "eleccion_draft",
+              "equipo_draft"
             ]
           }
-        },
-        "required": [
-          "jugador"
-        ]
-      }
-    },
-    "required": [
-      "nba_players"
-    ]
-  }
+        }
+      },
+      "required": [
+        "jugador"
+      ]
+    }
+  },
+  "required": [
+    "nba_players"
+  ]
+}

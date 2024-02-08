@@ -1,590 +1,107 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "clientes_v1": {
-        "type": "object",
-        "properties": {
-          "sede": {
-            "type": "array",
-            "items": [
-              {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "clientes_v1": {
+      "type": "object",
+      "properties": {
+        "sede": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dir1": {
+                "type": "string"
+              },
+              "dir2": {
+                "type": "string"
+              },
+              "empleado": {
+                "type": "string"
+              },
+              "fecha": {
+                "type": "string"
+              },
+              "cliente1": {
                 "type": "object",
                 "properties": {
-                  "dir1": {
+                  "cod": {
                     "type": "string"
                   },
-                  "dir2": {
+                  "descripcion": {
                     "type": "string"
                   },
-                  "empleado": {
+                  "numero": {
+                    "type": "number"
+                  },
+                  "coste": {
+                    "type": "number"
+                  },
+                  "resumen": {
                     "type": "string"
                   },
-                  "fecha": {
+                  "plazo": {
                     "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "number"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
                   }
                 },
                 "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1"
+                  "cod",
+                  "descripcion",
+                  "numero",
+                  "coste",
+                  "resumen",
+                  "plazo"
                 ]
               },
-              {
+              "cliente2": {
                 "type": "object",
                 "properties": {
-                  "dir1": {
+                  "cod": {
                     "type": "string"
                   },
-                  "dir2": {
+                  "descripcion": {
                     "type": "string"
                   },
-                  "empleado": {
+                  "numero": {
+                    "type": "number"
+                  },
+                  "coste": {
+                    "type": "number"
+                  },
+                  "resumen": {
                     "type": "string"
                   },
-                  "fecha": {
+                  "plazo": {
                     "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "number"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  },
-                  "cliente2": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
                   }
                 },
                 "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1",
-                  "cliente2"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "dir1": {
-                    "type": "string"
-                  },
-                  "dir2": {
-                    "type": "string"
-                  },
-                  "empleado": {
-                    "type": "string"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "number"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  },
-                  "cliente2": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  }
-                },
-                "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1",
-                  "cliente2"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "dir1": {
-                    "type": "string"
-                  },
-                  "dir2": {
-                    "type": "string"
-                  },
-                  "empleado": {
-                    "type": "string"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  }
-                },
-                "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "dir1": {
-                    "type": "string"
-                  },
-                  "dir2": {
-                    "type": "string"
-                  },
-                  "empleado": {
-                    "type": "string"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "number"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  },
-                  "cliente2": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  }
-                },
-                "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1",
-                  "cliente2"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "dir1": {
-                    "type": "string"
-                  },
-                  "dir2": {
-                    "type": "string"
-                  },
-                  "empleado": {
-                    "type": "string"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  }
-                },
-                "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "dir1": {
-                    "type": "string"
-                  },
-                  "dir2": {
-                    "type": "string"
-                  },
-                  "empleado": {
-                    "type": "string"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  },
-                  "cliente2": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  }
-                },
-                "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1",
-                  "cliente2"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "dir1": {
-                    "type": "string"
-                  },
-                  "dir2": {
-                    "type": "string"
-                  },
-                  "empleado": {
-                    "type": "string"
-                  },
-                  "fecha": {
-                    "type": "string"
-                  },
-                  "cliente1": {
-                    "type": "object",
-                    "properties": {
-                      "cod": {
-                        "type": "string"
-                      },
-                      "descripcion": {
-                        "type": "string"
-                      },
-                      "numero": {
-                        "type": "integer"
-                      },
-                      "coste": {
-                        "type": "integer"
-                      },
-                      "resumen": {
-                        "type": "string"
-                      },
-                      "plazo": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "cod",
-                      "descripcion",
-                      "numero",
-                      "coste",
-                      "resumen",
-                      "plazo"
-                    ]
-                  }
-                },
-                "required": [
-                  "dir1",
-                  "dir2",
-                  "empleado",
-                  "fecha",
-                  "cliente1"
+                  "cod",
+                  "descripcion",
+                  "numero",
+                  "coste",
+                  "resumen",
+                  "plazo"
                 ]
               }
+            },
+            "required": [
+              "dir1",
+              "dir2",
+              "empleado",
+              "fecha",
+              "cliente1"
             ]
           }
-        },
-        "required": [
-          "sede"
-        ]
-      }
-    },
-    "required": [
-      "clientes_v1"
-    ]
-  }
+        }
+      },
+      "required": [
+        "sede"
+      ]
+    }
+  },
+  "required": [
+    "clientes_v1"
+  ]
+}

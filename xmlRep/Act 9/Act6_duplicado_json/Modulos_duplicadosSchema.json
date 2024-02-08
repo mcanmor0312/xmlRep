@@ -1,196 +1,38 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "Departamento": {
-        "type": "object",
-        "properties": {
-          "Nombre": {
-            "type": "string"
-          },
-          "Carreras": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "Nombre": {
-                    "type": "string"
-                  },
-                  "Asignaturas": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "object",
-                        "properties": {
-                          "Nombre": {
-                            "type": "string"
-                          },
-                          "UnidadesDidacticas": {
-                            "type": "array",
-                            "items": [
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "Tipo": {
-                                    "type": "string"
-                                  },
-                                  "Descripcion": {
-                                    "type": "string"
-                                  }
-                                },
-                                "required": [
-                                  "Tipo",
-                                  "Descripcion"
-                                ]
-                              },
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "Tipo": {
-                                    "type": "string"
-                                  },
-                                  "Descripcion": {
-                                    "type": "string"
-                                  }
-                                },
-                                "required": [
-                                  "Tipo",
-                                  "Descripcion"
-                                ]
-                              }
-                            ]
-                          }
-                        },
-                        "required": [
-                          "Nombre",
-                          "UnidadesDidacticas"
-                        ]
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "Nombre": {
-                            "type": "string"
-                          },
-                          "UnidadesDidacticas": {
-                            "type": "array",
-                            "items": [
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "Tipo": {
-                                    "type": "string"
-                                  },
-                                  "Descripcion": {
-                                    "type": "string"
-                                  }
-                                },
-                                "required": [
-                                  "Tipo",
-                                  "Descripcion"
-                                ]
-                              },
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "Tipo": {
-                                    "type": "string"
-                                  },
-                                  "Descripcion": {
-                                    "type": "string"
-                                  }
-                                },
-                                "required": [
-                                  "Tipo",
-                                  "Descripcion"
-                                ]
-                              }
-                            ]
-                          }
-                        },
-                        "required": [
-                          "Nombre",
-                          "UnidadesDidacticas"
-                        ]
-                      }
-                    ]
-                  }
-                },
-                "required": [
-                  "Nombre",
-                  "Asignaturas"
-                ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "Departamento": {
+      "type": "object",
+      "properties": {
+        "Nombre": {
+          "type": "string"
+        },
+        "Carreras": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Nombre": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "Nombre": {
-                    "type": "string"
-                  },
-                  "Asignaturas": {
-                    "type": "object",
-                    "properties": {
-                      "Nombre": {
-                        "type": "string"
-                      },
-                      "UnidadesDidacticas": {
-                        "type": "array",
-                        "items": [
-                          {
-                            "type": "object",
-                            "properties": {
-                              "Tipo": {
-                                "type": "string"
-                              },
-                              "Descripcion": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "Tipo",
-                              "Descripcion"
-                            ]
-                          },
-                          {
-                            "type": "object",
-                            "properties": {
-                              "Tipo": {
-                                "type": "string"
-                              },
-                              "Descripcion": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "Tipo",
-                              "Descripcion"
-                            ]
-                          }
-                        ]
-                      }
-                    },
-                    "required": [
-                      "Nombre",
-                      "UnidadesDidacticas"
-                    ]
-                  }
-                },
-                "required": [
-                  "Nombre",
-                  "Asignaturas"
-                ]
-              }
+              "Asignaturas": {}
+            },
+            "required": [
+              "Nombre",
+              "Asignaturas"
             ]
           }
-        },
-        "required": [
-          "Nombre",
-          "Carreras"
-        ]
-      }
-    },
-    "required": [
-      "Departamento"
-    ]
-  }
+        }
+      },
+      "required": [
+        "Nombre",
+        "Carreras"
+      ]
+    }
+  },
+  "required": [
+    "Departamento"
+  ]
+}

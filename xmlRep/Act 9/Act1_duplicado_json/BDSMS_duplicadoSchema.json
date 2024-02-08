@@ -1,252 +1,44 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "BDSMS": {
-        "type": "object",
-        "properties": {
-          "contacto": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "BDSMS": {
+      "type": "object",
+      "properties": {
+        "contacto": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nombre": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
+              "telefono": {
+                "type": "number"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
+              "fechaNacimiento": {
+                "type": "string"
               },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "nombre": {
-                    "type": "string"
-                  },
-                  "telefono": {
-                    "type": "integer"
-                  },
-                  "fechaNacimiento": {
-                    "type": "string"
-                  },
-                  "email": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "nombre",
-                  "telefono",
-                  "fechaNacimiento",
-                  "email"
-                ]
+              "email": {
+                "type": "string"
               }
+            },
+            "required": [
+              "nombre",
+              "telefono",
+              "fechaNacimiento",
+              "email"
             ]
           }
-        },
-        "required": [
-          "contacto"
-        ]
-      }
-    },
-    "required": [
-      "BDSMS"
-    ]
-  }
+        }
+      },
+      "required": [
+        "contacto"
+      ]
+    }
+  },
+  "required": [
+    "BDSMS"
+  ]
+}
