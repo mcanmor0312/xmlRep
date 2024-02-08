@@ -17,13 +17,16 @@ schema = {
             "properties": {
               "titulo": {},
               "autor": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "publicacion": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "genero": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               }
             },
             "required": [

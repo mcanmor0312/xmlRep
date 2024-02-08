@@ -16,16 +16,20 @@ schema = {
             "type": "object",
             "properties": {
               "nombre": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "telefono": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "fechaNacimiento": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "email": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               }
             },
             "required": [

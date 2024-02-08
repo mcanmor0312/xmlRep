@@ -11,7 +11,8 @@ schema = {
       "type": "object",
       "properties": {
         "Nombre": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "Carreras": {
           "type": "array",
@@ -19,7 +20,8 @@ schema = {
             "type": "object",
             "properties": {
               "Nombre": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Asignaturas": {}
             },

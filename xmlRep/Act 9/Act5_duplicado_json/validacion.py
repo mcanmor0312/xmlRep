@@ -16,25 +16,30 @@ schema ={
             "type": "object",
             "properties": {
               "nombre": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "puesto": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "resultado": {
                 "type": "object",
                 "properties": {
                   "Apto": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "NoApto": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   }
                 },
                 "required": []
               },
               "observaciones": {
-                "type": "string"
+                "type": "string",
+              
               },
               "contacto": {
                 "type": "object",

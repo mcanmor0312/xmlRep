@@ -11,7 +11,8 @@ schema = {
       "type": "object",
       "properties": {
         "Nombre": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "Asignaturas": {
           "type": "array",
@@ -19,7 +20,8 @@ schema = {
             "type": "object",
             "properties": {
               "Nombre": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Contenidos": {
                 "type": "object",
@@ -30,10 +32,12 @@ schema = {
                       "type": "object",
                       "properties": {
                         "Tipo": {
-                          "type": "string"
+                          "type": "string",
+                          "minLength": 1
                         },
                         "Descripcion": {
-                          "type": "string"
+                          "type": "string",
+                          "minLength": 1
                         }
                       },
                       "required": [

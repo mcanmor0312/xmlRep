@@ -16,16 +16,20 @@ schema = {
             "type": "object",
             "properties": {
               "Titulo": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Director": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "AnioLanzamiento": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "Genero": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               }
             },
             "required": [

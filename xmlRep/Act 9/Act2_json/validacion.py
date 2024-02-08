@@ -16,25 +16,32 @@ schema = {
             "type": "object",
             "properties": {
               "Codigo": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "Marca": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Modelo": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Matricula": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Potencia": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "Plazas": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "Puertas": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               }
             },
             "required": [

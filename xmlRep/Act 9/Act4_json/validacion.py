@@ -16,37 +16,47 @@ schema = {
             "type": "object",
             "properties": {
               "dir1": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "dir2": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "empleado": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "fecha": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "cliente1": {
                 "type": "object",
                 "properties": {
                   "cod": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "descripcion": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "numero": {
-                    "type": "number"
+                    "type": "number",
+                    "minLength": 1
                   },
                   "coste": {
-                    "type": "number"
+                    "type": "number",
+                    "minLength": 1
                   },
                   "resumen": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "plazo": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   }
                 },
                 "required": [
@@ -62,22 +72,28 @@ schema = {
                 "type": "object",
                 "properties": {
                   "cod": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "descripcion": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "numero": {
-                    "type": "number"
+                    "type": "number",
+                    "minLength": 1
                   },
                   "coste": {
-                    "type": "number"
+                    "type": "number",
+                    "minLength": 1
                   },
                   "resumen": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "plazo": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   }
                 },
                 "required": [

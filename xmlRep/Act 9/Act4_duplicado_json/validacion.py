@@ -16,31 +16,40 @@ schema ={
             "type": "object",
             "properties": {
               "nombre": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "equipo": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "posicion": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "altura": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "peso": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "universidad": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "año_draft": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "eleccion_draft": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "equipo_draft": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               }
             },
             "required": [

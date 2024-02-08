@@ -16,22 +16,27 @@ schema = {
             "type": "object",
             "properties": {
               "NIF": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Resultado": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "Observaciones": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "IP_MAC": {
                 "type": "object",
                 "properties": {
                   "IP": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "MAC": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   }
                 },
                 "required": []
@@ -62,7 +67,7 @@ archivo_json ={
     "Alumno": [
       {
         "NIF": "123456789A",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Excelente desempeño en clase.",
         "IP_MAC": {
           "IP": "192.168.1.1"
@@ -70,7 +75,7 @@ archivo_json ={
       },
       {
         "NIF": "987654321B",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Debe mejorar en la participación.",
         "IP_MAC": {
           "MAC": "00:1A:2B:3C:4D:5E"
@@ -78,7 +83,7 @@ archivo_json ={
       },
       {
         "NIF": "111223344X",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Buen rendimiento académico.",
         "IP_MAC": {
           "IP": "192.168.1.2"
@@ -86,7 +91,7 @@ archivo_json ={
       },
       {
         "NIF": "555666777Y",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Participación destacada en actividades extracurriculares.",
         "IP_MAC": {
           "MAC": "11:22:33:44:55:66"
@@ -94,7 +99,7 @@ archivo_json ={
       },
       {
         "NIF": "999888777Z",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Atención necesaria en asignaturas específicas.",
         "IP_MAC": {
           "IP": "192.168.1.3"
@@ -102,7 +107,7 @@ archivo_json ={
       },
       {
         "NIF": "333444555C",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Destaca en matemáticas y ciencias.",
         "IP_MAC": {
           "IP": "192.168.1.4"
@@ -110,7 +115,7 @@ archivo_json ={
       },
       {
         "NIF": "666777888D",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Necesita mejorar la asistencia a clases.",
         "IP_MAC": {
           "MAC": "22:33:44:55:66:77"
@@ -118,7 +123,7 @@ archivo_json ={
       },
       {
         "NIF": "444555666E",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Participa activamente en actividades deportivas.",
         "IP_MAC": {
           "IP": "192.168.1.5"
@@ -126,7 +131,7 @@ archivo_json ={
       },
       {
         "NIF": "777888999F",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Interesado en la informática y la programación.",
         "IP_MAC": {
           "MAC": "33:44:55:66:77:88"
@@ -134,7 +139,7 @@ archivo_json ={
       },
       {
         "NIF": "555444333G",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Necesita más atención en la resolución de problemas.",
         "IP_MAC": {
           "IP": "192.168.1.6"
@@ -142,7 +147,7 @@ archivo_json ={
       },
       {
         "NIF": "888999000H",
-        "Resultado": "",
+        "Resultado": "6",
         "Observaciones": "Se destaca en las actividades artísticas.",
         "IP_MAC": {
           "MAC": "44:55:66:77:88:99"

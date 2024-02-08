@@ -15,16 +15,20 @@ schema = {
             "type": "object",
             "properties": {
               "telefono": {
-                "type": "number"
+                "type": "number",
+                "minLength": 1
               },
               "fecha": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "hora": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
               "mensaje": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               }
             },
             "required": [
